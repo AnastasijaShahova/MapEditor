@@ -1,0 +1,36 @@
+{
+   "types":[
+            {
+               "name":"Player",
+               "iconName":":/rec/img/player.png",
+               "singlePlaceable" : true
+            },
+            {
+               "name":"Ladder",
+               "iconName":":/rec/img/ladder.png",
+               "singlePlaceable" : false,
+               "properties" :
+               [
+                  {
+                     "name":"Speed",
+                     "type": "ranged",
+                     "min": 1,
+                     "max": 3
+                  }
+               ]
+               
+            },
+            {
+               "name":"Wall",
+               "iconName":":/rec/img/wall.png",
+               "singlePlaceable" : false,
+               "properties":
+               [
+                  {
+                     "name" : "Destructable",
+                     "type" : "boolean"
+                  }
+               ]
+            }
+         ]
+}

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/new.png</file>
+        <file>img/open.png</file>
+        <file>img/save.png</file>
+        <file>objects.json</file>
+        <file>img/ladder.png</file>
+        <file>img/player.png</file>
+        <file>img/wall.png</file>
+    </qresource>
+</RCC>
